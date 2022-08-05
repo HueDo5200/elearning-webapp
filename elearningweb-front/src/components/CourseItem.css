@@ -1,0 +1,154 @@
+.course-item {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    margin: 20px;
+    width: 250px;
+    height: 280px;
+
+}
+.my-course-item {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 250px;
+    height: 280px;
+
+}
+.my-course-info {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    height: 200px;
+    width: 250px;
+}
+.my-course-item:hover .course-img {
+    opacity: 0.7;
+}
+.my-course-item:hover {
+    background-color: rgb(236, 234, 234);
+   
+ }
+img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    transition: .5s ease;
+   
+    
+}
+
+.course-item:hover .course-img {
+    opacity: 0.7;
+}
+a {
+    text-decoration: none;
+   color: black;
+}
+.course-item:hover {
+   background-color: rgb(236, 234, 234);
+}
+.course-item .cart-btn {
+    opacity: 0;
+    text-align: center;
+    
+    transition: .35s ease;
+   position: absolute;
+    color: white;
+    border: solid 2px white;
+    font-weight: bold;
+    padding: 10px;
+    width: 250px;
+    background: rgba(0, 0, 0, .3);
+    margin-top: 110px;
+   
+   
+}
+.course-item:hover .cart-btn {
+    opacity: 1.5;
+
+}
+
+.course-info {
+display: flex;
+flex-direction: column;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+height: 130px;
+width: 250px;
+}
+
+.course-name {
+overflow-wrap: break-word;
+font-weight: bold;
+font-size: 16px;
+text-align: left;
+}
+.course-avg-rating {
+    color: rgb(190, 86, 38);
+    font-weight: bold;
+
+}
+.course-teacher {
+opacity: 0.5;
+font-size: 12px;
+margin-top: 2px;
+text-align: left;
+}
+.course-rating {
+display: flex;
+flex-direction: row;
+
+}
+
+
+.discount {
+display: flex;
+flex-direction: row;
+
+}
+
+.course-discount {
+    margin-right: 8px;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+   
+
+}
+
+.course-price {
+    margin-right: 16px;
+    opacity: 0.6;
+    font-size: 14px;
+    font-weight: lighter;
+    text-decoration: line-through;
+    margin-top: 0;
+    margin-bottom: 0;
+  
+}
+
+.discount-end {
+    margin-top: 0;
+margin-bottom: 0;
+color: red;
+font-size: 16px;
+}
+.star-icon {
+color: orange;
+transform: scale(0.7);
+
+}
+.star {
+width: 15px;
+}
+.star-outline {
+    transform: scale(0.7);
+  
+}
+.rating-click {
+    opacity: 0.8;
+    
+}

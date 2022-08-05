@@ -1,0 +1,13 @@
+.teacher-discussion-page {
+   display: flex;
+   flex-direction: row;
+}
+.right-section-div{
+   margin-top: 20px;
+   margin-left: 280px;
+   margin-right: 40px;
+   margin-bottom: 40px;
+    background-color: white;
+  
+
+}

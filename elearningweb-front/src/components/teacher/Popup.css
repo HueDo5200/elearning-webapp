@@ -1,0 +1,86 @@
+
+.name-wrapper, .description-wrapper, .content-wrapper {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+margin: 10px;
+}
+.name-input {
+    margin-left: 60px;
+}
+.description-input {
+    margin-left: 20px;
+}
+.content-input {
+margin-left: 44px;
+}
+.level-input {
+    margin-left: 75px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.price-input {
+    margin-left: 76px;
+    height: 30px;
+}
+.discount-input {
+    margin-left: 48px;
+    height: 30px !important;
+}
+.date-picker {
+    margin-left: 17px;
+    height: 38px !important;
+}
+.teacher-date-picker {
+    margin-left: 35px;
+    height: 37px !important;
+}
+.save-btn {
+   padding: 5px;
+    width: 150px;
+    margin-top: 20px;
+    background-color: cadetblue;
+    font-weight: bold;
+    color: white;
+}
+.close-btn {
+    padding: 5px;
+    width: 150px;
+    margin-top: 20px;
+    background-color: cadetblue;
+    font-weight: bold;
+    color: white;
+    margin-left: 5px;
+}
+.username-input {
+    height: 25px !important;
+    margin-left: 50px; 
+}
+.fullname-input {
+    height: 25px !important;
+    margin-left: 57px;
+}
+.email-input {
+    margin-left: 89px;
+    height: 25px !important;
+    margin-top: 10px;
+}
+.facebook-input {
+    height: 25px;
+    margin-left: 60px;
+}
+.teacher-description-input {
+margin-left: 46px;
+}
+.degree-input {
+    margin-left: 75px;
+   height: 33px;
+   margin-top: 5px;
+}
+.professional-input {
+    margin-left: 42px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+

@@ -1,0 +1,16 @@
+.signup {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signup-button {
+    background-color: rgba(5, 108, 116, 0.678);
+font-weight: bold;
+color: rgb(0, 0, 0);
+width: 300px;
+padding: 10px;
+margin-bottom: 10px;
+}

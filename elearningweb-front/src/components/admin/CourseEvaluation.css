@@ -1,0 +1,86 @@
+.unpublised-course-list {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+a {
+    text-decoration: none;
+   color: black;
+}
+.evaluatation-wrapper {
+    margin-top: 20px;
+    margin-left: 40px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    margin-left: 280px;
+    margin-top: 20px;
+    width: 80vw;
+}
+.level0 {
+font-weight: bold;
+color: green;
+}
+.level1 {
+color: blue;
+font-weight: bold;
+}
+.level2 {
+color: red;
+font-weight: bold;
+}
+
+
+.name-cell {
+    text-align: left;
+}
+.teacherName-cell {
+    text-align: left;
+}
+
+th {
+    text-align: left;
+}
+.price-cell {
+    width: 70px;
+    text-align: center;
+}
+.discount-cell {
+    width: 100px;
+    text-align: center;
+}
+.evaluation-cell {
+    text-align: center;
+    width: 100px;
+}
+.visible-icon {
+    transform: scale(0.8);
+    color: blue;
+}
+.descriptions-cell {
+    width: 300px;
+    color: black !important;
+}
+.check-icon {
+transform: scale(0.8);
+color: green;
+cursor: pointer;
+}
+.clear-icon {
+transform: scale(0.8);
+color: red;
+cursor: pointer;
+}
+.accept-status {
+    color: green;
+    font-weight: bold;
+}
+.declined-status {
+    color: red;
+    font-weight: bold;
+}
+
+.pending-status {
+    color: red;
+    font-weight: bold;
+    }

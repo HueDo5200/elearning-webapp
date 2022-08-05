@@ -1,0 +1,58 @@
+.courses, .teachers, .students {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    }
+    
+    .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 40px;
+    background-color: #ffffff;
+    border-top: 0.5px solid lightgray;
+    }
+    
+    .description {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .pros-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight:bolder;
+    color:  black;
+    }
+    
+    
+    .number {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color:  black;
+    
+    }
+    
+    .descript {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color:  black;
+    font-size: 15px;
+    padding: 10px;
+    }
+
+    .btn-home {
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        padding: 10px;
+    }
+
+
+   
+    
+    
+    

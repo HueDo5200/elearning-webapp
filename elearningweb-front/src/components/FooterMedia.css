@@ -1,0 +1,130 @@
+.medias-container {
+    background-color: #ffffff;
+    padding: 4rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.subscription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 24px;
+    padding: 24px;
+    color: rgb(255, 255, 255);
+}
+
+.subscription > p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.subscription-heading {
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+.subscription-text {
+    margin-bottom: 24px;
+    font-size: 20px;
+  }
+
+  .input {
+      padding: 8px 20px;
+      border-radius: 2px;
+      margin-right: 10px;
+      border: 1px solid #030303;
+      font-size: 18px;
+      margin-bottom: 16px;
+    
+  }
+
+  .links {
+      width: 100%;
+      max-width: 1000px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .link-wrapper {
+      display: flex;
+  }
+
+  .link-items {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 16px;
+      text-align: left;
+      width: 160px;
+      box-sizing: border-box;
+     
+  }
+
+  .link-items h2 {
+      margin-bottom: 16px;
+  }
+  .link-items a{
+      text-decoration: none;
+      margin-bottom: 0.5rem;
+      color:  black;
+  }
+ .social-icon-link {
+     color: black;
+     font-size: 24px;
+ }
+
+
+  .link-items a:hover {
+      color:blue;
+      transition: 0.3s ease-out;
+  }
+
+  .input::placeholder {
+      color:#b1b1b1;
+  }
+
+  .social-media-wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      max-width: 1000px;
+      margin: 40px auto 0 auto;
+  }
+
+  .social-icons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 240px;
+     
+  }
+  social-icons a:hover {
+      color: blue;
+  }
+
+  /* .social-log {
+      justify-self: start;
+      margin-left: 20px;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 2rem;
+      display: flex;
+      align-items: center;
+      margin-bottom: 16px;
+  } */
+
+  .btn-subscribe {
+      background-color: black;
+      font-weight: bold;
+      color: white;
+     padding: 8px;
+
+  }
+

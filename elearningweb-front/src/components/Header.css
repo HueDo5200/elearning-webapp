@@ -1,0 +1,123 @@
+.header {
+    height: 100px;
+    display: flex;
+    align-items: row;
+    align-items: center;
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    -webkit-box-shadow:0px 4px 4px #ceccce;
+    -moz-box-shadow:0px 4px 4px #e6e3e6;
+    box-shadow:0px 4px 4px #e6e3e6;
+   
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.header_search {
+display: flex;
+flex: auto;
+
+border-radius: 25px;
+}
+
+.header_right {
+display: flex;
+justify-content: space-evenly;
+}
+
+.header_left {
+margin-right: 20px;
+margin-left: 20px;
+}
+
+.header_option {
+display: flex;
+flex-direction: row;
+margin-left: 10px;
+margin-right: 10px;
+}
+.header-user {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.header-user-name {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.search_input {
+height: 25px;
+padding: 10px;
+border: 1px solid black;
+width: 95%;
+border-radius: 25px;
+
+}
+.search-btn {
+    border: none;
+    background-color: #fff;
+
+}
+.header_searchIcon {
+padding: 5px;
+height: 30px !important;
+position: absolute;
+top: 25%;
+left: 70%;
+
+
+}
+
+.header_welcome {
+padding: 10px;
+}
+
+.header_signin {
+background: white;
+padding: 10px;
+border: 1px solid black;
+font-weight: bold;
+}
+.header-mycourses {
+    background-color: #fff;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.header_signup {
+    padding: 11px;
+    border: 1px solid black;
+    background: black;
+    color: white;
+    font-weight: bold;
+}
+
+.header_cart {
+font-weight: bold;
+padding: 2px;
+margin-top: 10px;
+}
+
+.cart-icon {
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.course-icon {
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.language-icon {
+    margin-top: 10px;
+    margin-right: 5px;
+}
+

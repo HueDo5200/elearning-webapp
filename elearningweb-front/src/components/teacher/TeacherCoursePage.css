@@ -1,0 +1,445 @@
+.teacher-course-page {
+    display: flex;
+    flex-direction: row;
+   
+  
+}
+.action-icons {
+display: flex;
+flex-direction: row;
+
+}
+
+.add-wrapper {
+    display: flex;
+    flex-direction: row;
+   
+}
+.non-link {
+    color: black !important;
+}
+
+.add-button {
+   text-align: center;
+   border: none;
+   background-color:rgba(5, 108, 116, 0.678);
+   color: white;
+   font-weight: bold;
+   margin-right: 5px;
+   padding: 4px;
+   width: 200px;
+}
+
+.message-button {
+    text-align: center;
+   border: none;
+   background-color:rgba(5, 108, 116, 0.678);
+   color: white;
+   font-weight: bold;
+   margin-right: 5px;
+   padding: 4px;
+   width: 200px;
+}
+.non-link {
+    color: blue;
+}
+
+.upload-btn {
+    text-align: center;
+  
+   background-color:rgba(5, 108, 116, 0.678);
+   color: white;
+   font-weight: bold;
+   margin-right: 5px;
+   height: 30px;
+   width: 150px;
+}
+
+
+.right-section {
+    margin-top: 20px;
+   margin-left: 280px;
+   margin-right: 40px;
+   margin-bottom: 40px;
+    background-color: white;
+   box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.right-section-area {
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+     background-color: white;
+   
+}
+.right-section-table {
+    margin-top: 20px;
+    margin-left: 40px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+table {
+    padding-left: 40px;
+    padding-right: 40px;
+  
+    padding-bottom: 20px;
+    
+}
+
+.message-banner {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: greenyellow;
+
+}
+.x-btn {
+   margin-left: 50px;
+}
+.search-course-input {
+   
+    background: white;
+    top: 0;
+    margin-left: 40px;
+    border: none;
+    outline: none;
+   
+    margin-top: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: #fff;
+    color: #5a6674;
+}
+.search-button {
+    position:absolute;
+    top: 30px;
+    left: 540px;
+    color: rgb(8, 8, 196);
+}
+.teacher-search-button {
+    position:absolute;
+    top: 50px;
+    left: 600px;
+    color: rgb(8, 8, 196);
+}
+th {
+    text-align: center;
+    padding: 15px;
+}
+td {
+    text-align: left;
+    padding: 5px 15px 5px 15px;
+
+}
+.student-num {
+    color: rgb(8, 8, 196);
+    text-align: center !important;
+}
+.comment-num {
+    color: green;
+    text-align: center !important;
+}
+.avg-rating {
+    color: red;
+    text-align: center !important;
+}
+.eye-icon {
+    color: rgb(8, 8, 196);
+    margin-right: 5px;
+}
+.edit-icon {
+    color: rgba(5, 108, 116, 0.678);
+    margin-left: 5px;
+}
+.number-index {
+    text-align: center;
+}
+.teacher-course-image {
+    object-fit: cover;
+    width: 70px;
+    height: 70px;
+}
+.image-cell {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup {
+    position: fixed;
+    background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+.popup-box {
+    position: relative;
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+  max-height: 70vh;
+  margin-top: calc(100vh - 85vh - 20px);
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: auto;
+}
+
+.upload-popup {
+    position: fixed;
+    background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+
+
+
+.upload-popup-box {
+    position: relative;
+    width: 40%;
+    margin: 0 auto;
+    height: auto;
+    max-height: 70vh;
+    margin-top: calc(100vh - 85vh - 20px);
+    background: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    border: 1px solid #999;
+    overflow: auto;
+}
+.preview-video-path {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+   
+}
+.message-wrapper {
+    color: red;
+    margin-left: 10px;
+    margin-top: 10px;
+  
+}
+
+.popover-course {
+    opacity: 0;
+    visibility: hidden;
+   /* position: absolute; */
+position: absolute;
+display: flex;
+flex-direction: column;
+    transform: translate(0, 10px);
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: auto;
+    width: auto;
+  text-align: center;
+    padding: 20px;
+}
+
+.comment-wrapper {
+    text-align: center;
+}
+.student-wrapper {
+    text-align: center;
+}
+.rating-wrapper {
+    text-align: center;
+}
+.student-value {
+    font-weight: bold;
+    text-align: center;
+    color: rgb(8, 8, 196);
+}
+.comment-value {
+    color: rgba(5, 108, 116, 0.678);
+    font-weight: bold;
+}
+.avgrating-value {
+    margin-right: 4px;
+    text-align: center;
+}
+.star-icon {
+    transform: scale(90%);
+}
+.notification-group {
+    padding: 5px;
+    border: 1px solid rgba(5, 108, 116, 0.678);
+    background-color:rgba(5, 108, 116, 0.678);
+    color: white !important;
+    font-weight: bold;
+    width: 150px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.discussion-group {
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid rgba(5, 108, 116, 0.678);
+    background-color: rgba(5, 108, 116, 0.678);
+    color: white !important;
+    font-weight: bold;
+    width: 150px;
+    cursor: pointer;
+}
+
+.lesson-group {
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid rgba(5, 108, 116, 0.678);
+    background-color: rgba(5, 108, 116, 0.678);
+    color: white !important;
+    font-weight: bold;
+    width: 150px;
+    cursor: pointer;
+}
+/* .popover-student:before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+   
+    left: -10px;
+    top: 49px;
+    border-style: solid;
+    border-width: 10px 0px 10px 10px;
+    border-color: transparent transparent whitesmoke;
+} */
+.table-row:hover {
+    
+    opacity: 1.5;
+}
+.table-row:hover .popover-course {
+    z-index: 10;
+    opacity: 1;
+    visibility: visible;
+    transform: translate(50px, -100px);
+    transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+   
+}
+.course-level-0 {
+color:black;
+font-weight: bold;
+}
+.course-level-1 {
+    color: rgb(8, 8, 196);
+    font-weight: bold;
+}
+.course-level-2 {
+   color: rgba(5, 108, 116, 0.678);
+   font-weight: bold;
+}
+
+.notification-link {
+    cursor: pointer;
+}
+.item-price {
+    text-align: center;
+    font-weight: bold;
+
+}
+.item-discount {
+    text-align: center;
+    font-weight: bold;
+}
+.link-input {
+    margin-left: 81px;
+    width: 745px;
+}
+
+.delete-popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    height: auto;
+    max-height: 70vh;
+    margin-top: calc(100vh - 85vh - 20px);
+    background: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    border: 1px solid #999;
+    overflow: auto;
+}
+.confirm-button {
+    text-align: center;
+    border: none;
+    background-color:rgba(206, 7, 7, 0.842);
+    color: white;
+    font-weight: bold;
+    padding: 4px;
+    width: 100px;
+    margin: 4px;
+}
+.no-button {
+    background-color:rgba(5, 108, 116, 0.678);
+    text-align: center;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 4px;
+    width: 100px;
+    margin: 4px;
+}
+.delete-text {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.export-btn{
+    text-align: center;
+    border: none;
+    background-color:rgba(5, 108, 116, 0.678);
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    padding: 4px;
+    width: 200px;
+}
+.permission-page {
+    display: flex;
+    flex-direction: row;
+
+}
+.permission-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    font-weight: bold;
+    color: red;
+   
+}
+.teacher-image {
+    width: 50px;
+    height: 50px;
+}
+.upload-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+.upload-text {
+    margin-right: 8px;
+}
+.update-video-btn {
+    transform: scale(0.8);
+    color:rgba(5, 108, 116, 0.678)
+}
+.eye-video-btn {
+    transform: scale(0.8);
+    color:rgba(5, 108, 116, 0.678)
+}
+.course-name-cell {
+    width: 350px;
+}

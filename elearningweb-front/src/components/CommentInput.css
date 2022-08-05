@@ -1,0 +1,90 @@
+.comment-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    border-bottom: 0.2px solid rgba(141, 138, 138, 0.671);
+}
+
+.comment-teacher-info {
+    display: flex;
+    flex-direction: row;
+   
+}
+.teacher-image {
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+.img-right {
+    display: flex;
+    flex-direction: column;
+   
+}
+.notification-title {
+    font-weight: bold;
+    overflow-wrap: break-word;
+
+}
+.notification-content {
+    opacity: 0.8;
+}
+.embedded-link {
+    color: blue;
+    margin-top: 15px;
+}
+
+.instructor-text {
+   /* text-align: end; */
+   justify-content: flex-end;
+    margin-bottom: 15px;
+   
+}
+.teacher-name {
+    margin-left: 10px;
+  
+
+}
+.date-posted {
+    opacity: 0.8;
+    font-weight: lighter !important;
+}
+.comment-input-div {
+
+}
+.student-input {
+    width: 800px;
+    margin-top: 10px;
+}
+.input-area {
+    display: flex;
+    flex-direction: row;
+}
+.send-icon {
+    
+}
+.send-btn {
+width: 41px;
+height: 41px;
+margin-left: 2px;
+margin-top: 10px;
+}
+.notification-link {
+    color: blue;
+    text-decoration: underline;
+}
+.comment-text-div {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  
+}
+.your-comment {
+    font-weight: bold;
+}
+.comment-text {
+    margin-left: 5px;
+}

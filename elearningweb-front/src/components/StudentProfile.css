@@ -1,0 +1,123 @@
+.student-profile {
+display: flex;
+flex-direction:column;
+margin-top: 20px;
+}
+
+.profile-user {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+margin-left: 300px;
+
+}
+.profile-image {
+    width: 200px;
+    height: 230px;
+}
+.profile-user-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 120px;
+}
+.profile-course {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+margin-left: 280px;
+
+}
+
+.profile-username {
+    font-weight: bold;
+    font-size: 18px;
+    color:rgb(42, 108, 194);
+}
+.profile-email {
+   display: flex;
+   flex-direction: row;
+}
+.profile-facebook {
+    display: flex;
+    flex-direction: row;
+}
+.profile-email-value {
+margin-left: 5px;
+color: rgb(42, 108, 194);
+}
+.profile-facebook-value {
+    margin-left: 5px;
+    color: rgb(42, 108, 194);
+}
+
+.edit-btn {
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    color:black;
+    font-weight: bold;
+    border: none;
+    width: 200px;
+    height: 35px;
+    border: 1px solid rgb(166, 230, 241);
+}
+.password-btn {
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    width: 200px;
+    height: 35px;
+    border: 1px solid rgb(112, 235, 167);
+}
+
+.profile-image-btn {
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    width: 200px;
+    height: 35px;
+    border: 1px solid rgb(133, 255, 52);
+   
+}
+.profile-btns {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.profile-title {
+    margin-left: 150px;
+}
+.my-course-title {
+    margin-left: 150px;
+}
+.update-profile-btn {
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+    border: none;
+    width: 200px;
+    height: 35px;
+    border: 1px solid blue;
+}
+.update-profile-btn:hover {
+    background-color: rgb(166, 230, 241);
+    color: blue;
+    border:none;
+}
+

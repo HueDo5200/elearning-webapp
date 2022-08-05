@@ -1,0 +1,270 @@
+.account-page {
+    display: flex;
+    flex-direction: row;
+}
+.right-section-area {
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+     background-color: white; 
+}
+.teacher-info-image {
+    width: 250px;
+    height: 300px;
+}
+.teacher-info {
+   display: flex;
+   flex-direction: row;
+   justify-content:flex-start;
+   align-items: flex-start;
+   margin-bottom: 100px;
+}
+.teacher-info-detail {
+    display: flex;
+    flex-direction: column;
+ margin-left: 20px;
+}
+.teacher-name-area {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4px;
+}
+.name-text {
+    font-weight: bold;
+}
+.name-value {
+   margin-left: 40px;
+}
+
+.teacher-fullname {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4px;
+}
+.fullname-text {
+    font-weight: bold;
+}
+.fullname-value {
+    margin-left: 40px;
+}
+
+.teacher-dob {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4px;
+}
+.dob-text {
+    font-weight: bold;
+}
+.dob-value {
+   margin-left: 17px;
+   
+  
+}
+
+.teacher-email {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4px;
+}
+.email-text {
+    font-weight: bold;
+}
+.email-value {
+    margin-left: 75px;
+  
+}
+
+.teacher-facebook {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4px;
+}
+.facebook-text {
+    font-weight: bold;
+}
+.facebook-value {
+    margin-left: 45px;
+   
+   
+}
+.teacher-degree {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4px;
+}
+.degree-text {
+    font-weight: bold;
+}
+.degree-value {
+    margin-left: 62px;
+}
+.teacher-professional {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4px;
+}
+.professional-text {
+font-weight: bold;
+}
+.professional-value {
+    margin-left: 23px;
+}
+.buttons {
+    display: flex;
+    flex-direction:column;
+    margin-left: 40px;
+}
+.pass-btn {
+    text-align: center;
+    border: none;
+    background-color:rgba(5, 108, 116, 0.678);
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    padding: 4px;
+    width: 200px;
+    margin-bottom: 10px;
+    cursor: pointer;
+   
+}
+.profile-btn {
+    text-align: center;
+    border: none;
+    background-color:rgba(5, 108, 116, 0.678);
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    padding: 4px;
+    width: 200px;
+    margin-right: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.upload-profile-image-btn {
+    text-align: center;
+    border: none;
+    background-color:rgba(5, 108, 116, 0.678);
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    padding: 4px;
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+   
+}
+
+.teacher-course-info {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+}
+.total-course {
+    margin: 20px;
+    padding: 20px;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+    background: radial-gradient(#1fe4f5, #3fbafe);
+    text-align: center;
+    font-weight: bold;
+    color: white;
+   
+}
+
+.total-reviews {
+    margin: 20px;
+    padding: 20px;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+    background: radial-gradient(#76b2fe, #b69efe);
+    text-align: center;
+    font-weight: bold;
+    color: white;
+   
+}
+.total-students {
+    margin: 20px;
+    padding: 20px;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+    background: radial-gradient(#60efbc, #58d5c9);
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.total-course-text {
+    font-size: 30px;
+    margin-top: 70px;
+}
+.total-course-value {
+    font-size: 50px;
+}
+.total-students-text {
+    font-size: 30px;
+    margin-top: 70px;
+}
+.total-students-value {
+    font-size: 50px;
+}
+.total-reviews-text {
+    font-size: 30px;
+    margin-top: 70px;
+}
+.total-reviews-value {
+    font-size: 50px;
+}
+.popup {
+    position: fixed;
+    background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+.popup-box {
+    position: relative;
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+  max-height: 70vh;
+  margin-top: calc(100vh - 85vh - 20px);
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: auto;
+}
+.admin-username {
+    margin-left: 50px;
+}
+.admin-fullname {
+    margin-left: 62px;
+}
+.admin-date-picker {
+    margin-left: 41px;
+    height: 40px;
+    width: 300px;
+}
+.update-profile-wrapper {
+    margin-bottom: 10px;
+}
+.account-right-btns {
+    margin-left: 100px;
+}

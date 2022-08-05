@@ -1,0 +1,23 @@
+.payment {
+    margin-top: 50px;
+   
+   
+}
+.total-text {
+    text-align: center;
+}
+.payment-btn {
+    text-align: center;
+    padding: 7px;
+    width: 200px;
+    margin-left: 50px;
+    font-weight: bold;
+    background-color: rgba(5, 108, 116, 0.678);
+    color: white;
+    margin-top: 20px;
+}
+.payment > form {
+   
+    min-width: 300px;
+  }
+  

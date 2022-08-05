@@ -1,0 +1,41 @@
+.courses {
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+flex-direction: column;
+}
+
+.course-row {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    list-style: none;
+   
+}
+
+.home-courses-title {
+ margin-left: 60px;
+  
+   
+}
+
+.carousel-container {
+    width: 800px;
+    margin: 0px;
+    height: 300px;
+   
+   
+}
+
+.home-my-course-title {
+margin-left: 60px;
+}
+.carousel-slider {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.carousel-item {
+margin: 0px;
+padding: 0px;
+
+}

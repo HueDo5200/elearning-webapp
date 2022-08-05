@@ -1,0 +1,18 @@
+.clock-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+  
+    align-items: center;
+    justify-content: center;
+}
+.Clock-days {
+    margin-right: 5px;
+}
+.Clock-hours {
+margin-right: 5px;
+}
+
+.Clock-minutes {
+    margin-right: 5px;
+}

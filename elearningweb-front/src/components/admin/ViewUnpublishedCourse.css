@@ -1,0 +1,11 @@
+.unpublished-course {
+display: flex;
+flex-direction: row;
+}
+.no-lessons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,29 @@
+.teacher-notification-page {
+    display: flex;
+    flex-direction: row;
+ }
+ .right-section-div{
+     margin-top: 20px;
+      background-color: white;
+      margin-left: 40px;
+     
+     
+ 
+ }
+ .notification-link {
+     cursor: pointer;
+ }
+ .add-button {
+    text-align: center;
+    border: none;
+    background-color:rgba(5, 108, 116, 0.678);
+    color: white;
+    font-weight: bold;
+    
+    padding: 4px;
+    width: 200px;
+ }
+ .non-link {
+     color: black;
+ }
+ 
