@@ -1,5 +1,0 @@
-CLIENT-ID: 452337883638-fs3f6co4u7nukuctr4vtb2qnraoho6d6.apps.googleusercontent.com
-client-secret: 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
-
-
-user {"googleId":"114901449800082433216","imageUrl":"https://lh3.googleusercontent.com/a/AATXAJzZws6xdvN1x20y1U8f5obRWgayLqGZX7b7n5u3=s96-c","email":"aerithstrike@gmail.com","name":"Aerith Strike","givenName":"Aerith","familyName":"Strike"}
